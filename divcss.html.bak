@@ -1,0 +1,81 @@
+﻿﻿
+<!DOCTYPE html PUBLIC '-//W3C//DTD HTML 4.01 Strict//EN' 'http://www.w3.org/TR/html4/strict.dtd'>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+<style>
+html {overflow-y:scroll;filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter: grayscale(100%);}
+</style>
+<link rel="stylesheet" type="text/css" href="css/divcss1.css" />
+
+<title>css</title>
+</head>
+<body>
+	Hello World！
+	<br>
+	<a href="http://www.taobao.com" target="rightframe">这里去淘宝</a>
+	<br>
+	<iframe name="centerframe" src="http://www.baidu.com" width="500px"
+		height="100px"></iframe>
+	<iframe name="rightframe" src="http://www.sina.com" width="400px"
+		height="100px"></iframe>
+	<form action="actiontest.html" method=get>
+		用户名：<input type="text" name="username"> 密码：<input
+			type="password" name="pwd">
+		<fieldset>
+			<legend>单选：</legend>
+			<input type="radio" name="singlechoise" value="aaa" text="aaaaaaa">aaaa
+			<input type="radio" name="singlechoise" value="bbb" text="bbbbbbb">bbbb<br>
+		</fieldset>
+		多选： <input type="checkbox" name="city" value="beijing">北京 <input
+			type="checkbox" name="city" value="chengdu">成都 <input
+			type="checkbox" name="city" value="shanghai">上海
+		<hr color="red">
+		<br> 下拉列表 <select name="citydrop" size=3 multiple>
+			<option value="east">东</option>
+			<option value="south">南</option>
+			<option value="west">西</option>
+			<option value="north">北</option>
+		</select> <br> <input type="file" value="uploadfile"> <br> <input
+			type="submit" value="提交"> --> <input type="image"
+			src="avatar11.jpg"> <input type="reset" value="重写">
+	</form>
+
+	<font style="font-size: 50px" face="微软雅黑" color="red">这是本地字体</font>
+	<br>
+	<div
+		style="width: 200px; height: 200px; border: 1px solid red; position: absolute; left: 800px; top: 100px;">
+		Hello world<br>
+		<table border=1px width="100%">
+			<tr>
+				<td>123123</td>
+				<td>123123</td>
+			<tr>
+		</table>
+		<img src="13753.jpg" width=400px height=400px usemap="#map1" />
+
+		<map name="map1">
+			<area shape="rect" href="http://www.sina.com" coords="10,10,100,50"
+				border=1px red>
+		</map>
+
+	</div>
+
+    <br>
+	<div class="style1">
+    <img src="pulse.gif" />
+	
+	<img src="pulse.gif" />
+	
+	</div>
+
+    <span class="span-style1">栏目1<span>
+    <span class="span-style2">栏目2<span>
+    <span class="span-style3">栏目3<span>
+    <span class="span-style4">栏目4<span>
+    <span class="span-style5">栏目5<span>
+
+    <img src="pulse.gif" />
+
+</body>
+</html>

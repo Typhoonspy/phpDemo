@@ -1,0 +1,39 @@
+.style1{
+	width:500px;
+	height:500px;
+	background-color:silver;
+	border:1px solid black;
+	margin-top:50px;
+	margin-left:50px;
+	padding-top:10px;
+	padding-left:10px;
+}
+/* .span-style1¿‡—°‘Ò∆˜*/
+.span-style1{
+	color:red;
+	font-size:30px;
+}
+
+.span-style2{
+	color:yellow;
+	font-size:20px;
+}
+
+.span-style3{
+	color:blue;
+	font-size:20px;
+	font-style:italic;
+	text-decoration:none;
+}
+
+.span-style4{
+	color:green;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.span-style5{
+	color:#223456;
+	font-size:30px;
+	font-style:italic;
+}
