@@ -1,3 +1,5 @@
+
+/*   class ÀàÑ¡ÔñÆ÷  .¿ªÍ·  */
 .style1{
 	width:500px;
 	height:500px;
@@ -8,7 +10,7 @@
 	padding-top:10px;
 	padding-left:10px;
 }
-/* .span-style1ÀàÑ¡ÔñÆ÷*/
+
 .span-style1{
 	color:red;
 	font-size:30px;
@@ -37,3 +39,95 @@
 	font-size:30px;
 	font-style:italic;
 }
+
+.class-s1{
+    background-color:pink;
+	font-size:20px;
+	font-weight:bold;
+	
+}
+
+/*  IDÑ¡ÔñÆ÷   #¿ªÍ· */
+#id-s1{
+	background-color:silver;
+	font-size=40px;
+
+}
+
+¡/*  html  ÔªËØÑ¡ÔñÆ÷ */
+body{	
+     color :red;
+}
+
+a{
+   color:black;
+   text-decoration:none;
+}
+
+a:link{
+   color:green;
+   text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+	color:green;
+	font-size:50px
+	}
+	
+a:visited{
+    color:red; 
+}	
+
+/*   Í¬Ò»ÖÖÔªËØ·ÖÀà    */
+p.cls1{
+    color:green;
+	font-size:30px;
+}
+
+p.cls2{
+    color:blue;
+	font_size:50px;
+}
+
+/*  *Í¨Åä·ûÑ¡ÔñÆ÷  */
+
+*{
+ margin:0;
+ margin-left:20px;
+ padding:0;
+ /*color:red;
+ */
+ }
+ 
+ /*      ¸¸×ÓÑ¡ÔñÆ÷   */
+ #id-s1 span{
+	color:red;
+	font-style:italic;
+	
+ 
+ }
+ 
+ #id-s1 span span{
+	color:black;
+}
+
+#id-s1 span span a{
+    color:blue;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
