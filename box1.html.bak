@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD HTML 4.01 Strict//EN' 'http://www.w3.org/TR/html4/strict.dtd'>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <link rel="stylesheet" type="text/css" href="css/box1.css" />
+  <title>Document</title>
+ </head>
+ <body>
+      <div class="div1"><img src="avatar11.jpg"></div>
+ 
+	<div class	="div2">
+	<ul class="faceul">
+	<li><img src="avatar11.jpg" alt="" /></li>
+	<li><img src="avatar11.jpg" alt="" /></li>
+	<li><img src="avatar11.jpg" alt="" /></li>
+	<li><img src="avatar11.jpg" alt="" /></li>
+	<li><img src="avatar11.jpg" alt="" /></li></ul></div>
+ 
+ </body>
+</html>

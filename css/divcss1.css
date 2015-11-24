@@ -54,7 +54,7 @@
 
 }
 
-Ё/*  html  дЊЫибЁдёЦї */
+/*  html  дЊЫибЁдёЦї */
 body{	
      color :red;
 }
@@ -94,9 +94,9 @@ p.cls2{
 
 *{
  margin:0;
- margin-left:20px;
+ /*margin-left:20px;
  padding:0;
- /*color:red;
+ color:red;
  */
  }
  

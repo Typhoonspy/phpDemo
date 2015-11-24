@@ -3,9 +3,15 @@
 <html>
 <head>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
-<style>
-html {overflow-y:scroll;filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter: grayscale(100%);}
+<style	type="text/css" >
+    a:link img{
+	   filter:gray;
+	}
+	a:hover img{
+	   filter:"";
+	}
 </style>
+
 <link rel="stylesheet" type="text/css" href="css/divcss1.css" />
 
 <title>css</title>
@@ -15,10 +21,12 @@ html {overflow-y:scroll;filter:progid:DXImageTransform.Microsoft.BasicImage(gray
 	<br>
 	<a href="http://www.taobao.com" target="rightframe">这里去淘宝</a>
 	<br>
+	<a href="http://www.jd.com" target="rightframe">这里去京东</a>
+
 	<iframe name="centerframe" src="http://www.baidu.com" width="500px"
-		height="100px"></iframe>
+		height="200px"></iframe>
 	<iframe name="rightframe" src="http://www.sina.com" width="400px"
-		height="100px"></iframe>
+		height="200px"></iframe>
 	<form action="actiontest.html" method=get>
 		用户名：<input type="text" name="username"> 密码：<input
 			type="password" name="pwd">
@@ -65,7 +73,7 @@ html {overflow-y:scroll;filter:progid:DXImageTransform.Microsoft.BasicImage(gray
 	<div class="style1">
     <img src="pulse.gif" />
 	
-	<img src="pulse.gif" />
+	<a href="#"><img src="pulse.gif" /></a> 
 	
 	</div>
 
@@ -75,7 +83,26 @@ html {overflow-y:scroll;filter:progid:DXImageTransform.Microsoft.BasicImage(gray
     <span class="span-style4">栏目4<span>
     <span class="span-style5">栏目5<span>
 
-    <img src="pulse.gif" />
+    <br>
+	
+	<span class="class-s1">新闻1<span>
+    <span class="class-s1">新闻2<span>
+    <span class="class-s1">新闻3<span>
+    <span class="class-s1">新闻4<span>
+    <span class="class-s1">新闻5<span>
+	
+	<br>
+	
+	<span id="id-s1" >这是一个<span>非常<span>重要<a href="#">adasdfads</a></span></span>的新闻</span>
+	
+	<p class="cls1"> 第一个段落</p>
+	<p class="cls2">  第二个段落  </p>
+    <br>
+	<span class="cls1" id="id-s1">同时使用类选择器和id选择器</span>
+     
+    <br>
+	<span class="cls1 span-style4" id="id-s1">一个元素可以同时使用多个类选择器，顺序取决于css文件中类的顺序</span>
+
 
 </body>
 </html>
